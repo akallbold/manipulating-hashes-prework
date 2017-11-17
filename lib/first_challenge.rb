@@ -30,4 +30,3 @@ end
 end
 
 first_challenge
-
