@@ -18,7 +18,7 @@ def first_challenge
   #your code here
 contacts.each do |name,key|
   key.each do |attribute,value|
-    if attribute == "favorite_icecream_flavors" && name == "Freddy Mercury"
+    if attribute == "favorite_icecream_flavors"
       value - ["strawberry"]
       binding.pry
     end
